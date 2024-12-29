@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+/* Estilo para a caixa de texto */
+.caixa-texto {
+    width: 290px; /* Largura da caixa de texto */
+    margin: 0 auto; /* Centraliza a caixa de texto horizontalmente */
+    padding: 10px; /* Espaçamento interno */
+    border: 2px solid #5300C8; /* Borda da caixa de texto */
+    border-radius: 6px; /* Bordas arredondadas */
+    font-size: 20px; /* Tamanho da fonte */
+}
+
+/* fonte */
+::placeholder { 
+    color: #000; 
+    font-size: 16px;
+}
+
+
+.botoes {
+    color: #5300C8;
+    margin-top: 10px;
+    align-items: baseline ;
+    cursor: pointer;
+    height: 50px;
+    font-size: 20px; 
+}
+
+.btn-Limpar {
+    background-color: #D6D6D6;
+    padding: 2px; /* Espaçamento interno */
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.btn-Finalizar {
+    background-color: #D6D6D6;
+    padding: 2px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.footer {
+    margin: 0 auto;
+    background-position: #5300C8;
+}
